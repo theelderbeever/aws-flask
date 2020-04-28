@@ -5,7 +5,7 @@ application = Flask(__name__, instance_relative_config=True,)
 
 @application.route("/")
 def index():
-    return "Hello Bob"
+    return "Hello dev"
 
 
 # run the app.
