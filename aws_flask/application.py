@@ -1,14 +1,17 @@
 from flask import Flask
 
-application = Flask(__name__, instance_relative_config=True,)
+
+def create_app():
+    application = Flask(__name__, instance_relative_config=True,)
+
+    @application.route("/")
+    def index():
+        return "Hello dev"
+
+    return application
 
 
-@application.route("/")
-def index():
-    return "Hello dev"
-
-
-# run the app.
 if __name__ == "__main__":
+    application = create_app()
     application.debug = True
     application.run()
