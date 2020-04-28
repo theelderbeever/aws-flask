@@ -1,6 +1,6 @@
 from flask import Flask
 
-from . import create_app
+from aws_flask import create_app
 
 
 application = create_app()
