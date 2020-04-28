@@ -6,6 +6,6 @@ def create_app():
 
     @application.route("/")
     def index():
-        return "Hello factory __init__"
+        return "Hello factory __init__ relative and git"
 
     return application

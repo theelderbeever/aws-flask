@@ -1,5 +1,6 @@
 appdirs==1.4.3
 attrs==19.3.0
+-e git+https://github.com/theelderbeever/aws-flask.git@4fdee35d19714759466b30efeb1f4da468c3ed6e#egg=aws_flask
 black==19.10b0
 click==7.1.2
 Flask==1.0.2
