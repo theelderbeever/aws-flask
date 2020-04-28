@@ -1,6 +1,14 @@
+appdirs==1.4.3
+attrs==19.3.0
+-e git+https://github.com/theelderbeever/aws-flask.git@ad95bb8a8c789dce99438750d6a2156c89225bee#egg=aws_flask
+black==19.10b0
 click==7.1.2
 Flask==1.0.2
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
+pathspec==0.8.0
+regex==2020.4.4
+toml==0.10.0
+typed-ast==1.4.1
 Werkzeug==1.0.1
